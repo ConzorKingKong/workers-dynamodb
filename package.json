@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "dynamodb",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Connor Peshek <connor@cloudflare.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^1.0.0-gamma.10",
+    "@aws-sdk/client-sqs": "^1.0.0-gamma.10"
+  }
+}
