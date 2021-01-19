@@ -22,9 +22,11 @@ wrangler secret put AWS_ACCESS_KEY_ID
 wrangler secret put AWS_SECRET_ACCESS_KEY
 ```
 
+You'll also need to set a default REGION and TABLE at the top of the index.js
+
 After that you can use `wrangler publish` as normal. See the [wrangler documentation](https://developers.cloudflare.com/workers/cli-wrangler) for more information.
 
 
 #### AWS SDK for JavaScript
 
-These examples use [v3 of the AWS SDK for JavaScript](https://github.com/aws/aws-sdk-js-v3), see that repository for more information.
+This template uses the [JavaScript AWS SDK V3 for DynamoDB](https://github.com/aws/aws-sdk-js-v3/tree/master/clients/client-dynamodb), see that repository for more information.
